@@ -4,11 +4,12 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Naka_cloth_c
   m_Shader: {fileID: 4800000, guid: 90835eff98b7b644ca8caddb7a6b92b5, type: 3}
-  m_ShaderKeywords: _BLENDMODE_NONE _ZWRITE_ON
+  m_ShaderKeywords: _BLENDMODE_NORMAL _USE_OUTLINE _USE_RIM _ZWRITE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -68,7 +69,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BlendMode: 0
+    - _BlendMode: 1
     - _BumpScale: 1
     - _ClipThreshold: 0.05
     - _Cutoff: 0.5
@@ -82,8 +83,8 @@ Material:
     - _OcclusionStrength: 1
     - _OutlineWidth: 1
     - _Parallax: 0.02
-    - _RampV: 0.5
-    - _RimColorIntensity: 1
+    - _RampV: 0.375
+    - _RimColorIntensity: 0.697
     - _RimPower: 24.2
     - _ShadowPower: 0.721
     - _ShadowStencilRef: 1
@@ -97,16 +98,16 @@ Material:
     - _SpecularHighlights: 1
     - _SpecularIntensity: 0
     - _SrcBlend: 1
-    - _ToonIntensity: 0.5
+    - _ToonIntensity: 0.138
     - _ToonPower: 0.5
-    - _ToonThreshold: 0
+    - _ToonThreshold: 0.567
     - _UVSec: 0
     - _ZWrite: 1
     - _useClip: 0
     - _useHatching: 0
     - _useNormalMap: 0
-    - _useOutline: 0
-    - _useRim: 0
+    - _useOutline: 1
+    - _useRim: 1
     - _useSpecular: 0
     - _useVertexOutline: 0
     m_Colors:
